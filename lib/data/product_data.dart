@@ -1,0 +1,50 @@
+import '../models/product.dart';
+
+List<Product> getProducts() {
+  return [
+    Product(
+      id: 1,
+      name: 'Ruj Seti',
+      brand: 'L\'Oréal',
+      price: 149.90,
+      description: 'Uzun süre kalıcı, nemlendirici ve parlak bitişli ruj seti. 6 farklı renk seçeneği ile her ortama uygun.',
+      imagePath: 'assets/images/product1.jpg',
+      category: 'Ruj',
+      rating: 4.8,
+      isInStock: true,
+    ),
+    Product(
+      id: 2,
+      name: 'Fondöten',
+      brand: 'Maybelline',
+      price: 89.50,
+      description: 'Doğal görünümlü, orta-yüksek kapatıcılığa sahip fondöten. Cilt tipine uygun formülü ile tüm gün konfor.',
+      imagePath: 'assets/images/product2.jpg',
+      category: 'Fondöten',
+      rating: 4.6,
+      isInStock: true,
+    ),
+    Product(
+      id: 3,
+      name: 'Maskara',
+      brand: 'Dior',
+      price: 189.90,
+      description: 'Hacim veren, uzatan ve kıvırcıklaştıran maskara. 36 saat boyunca akma yapmaz, suya dayanıklıdır.',
+      imagePath: 'assets/images/product3.jpg',
+      category: 'Maskara',
+      rating: 4.9,
+      isInStock: false,
+    ),
+    Product(
+      id: 4,
+      name: 'Nemlendirici Krem',
+      brand: 'Nivea',
+      price: 67.30,
+      description: 'Yoğun nemlendirici etkiye sahip, cilt bariyerini güçlendiren ve cildi besleyen krem. Tüm cilt tipleri için uygun.',
+      imagePath: 'assets/images/product4.jpg',
+      category: 'Cilt Bakımı',
+      rating: 4.7,
+      isInStock: true,
+    ),
+  ];
+}
